@@ -3,11 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Document</title>
+  <link rel="stylesheet" href="estilos.css">
 </head>
+
 <body >
  <div class = "contenido">
 
-  <table align="center">
+  <table align="center"  cellpadding=2  bordercolor="yellow">
   <br></>
     <tr>
        <td><button>4</button></td> <td><button>8</button></td><td><button>12</button></td><td><button>16</button></td><td><button>20</button></td><td>
@@ -36,12 +38,13 @@
 
  <div class="container" align="center">
 
- 	 <p>DNI :<input type="text" id="dni" onfocus=" "></p> <button id="buscar" onclick="buscar()">Buscar</button>
- 	 <p> Nombre: <input type="text" id="nombre"></p> <p>  Apellido:<input type="text" id="apellido"></p>
-     <button id="reservar" onclick="reservar()" onfocus="" >Reservar</button>
-     <button id="cancelar" onclick="cancelar();return false">Cancelar</button> <br/><br/>
-    <button onclick="listar()">Listar</button> <br/><br/>
-
+ 	 <p>DNI :<input type="text" id="dni" onfocus=" "> <button id="buscar" onclick="buscar()">Buscar</button></p> 
+ 	 <p>Nombre: <input type="text" id="nombre"></p> 
+   <p>Apellido:<input type="text" id="apellido"></p>
+   <button id="reservar" onclick="reservar()" onfocus="" >Reservar</button>
+   <button id="cancelar" onclick="cancelar();return false">Cancelar</button> <button onclick="listar()">Listar  </button> 
+<br/><br/>
+   
 
      <div id="resultado"></div>
      <div id="res_buscar"></div>
